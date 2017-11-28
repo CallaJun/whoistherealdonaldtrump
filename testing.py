@@ -1,7 +1,7 @@
 import json
 import re 
 
-data = json.load(open('nov1to5.json'))
+data = json.load(open('tweets.json'))
 outputFile = open('output.txt', 'w')
 
 for item in data:
