@@ -2,7 +2,7 @@ import json
 import re 
 
 data = json.load(open('tweets.json'))
-outputFile = open('output.txt', 'w')
+outputFile = open('tweets.train', 'w')
 
 for item in data:
 	if item["is_retweet"]:
